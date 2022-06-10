@@ -3,16 +3,16 @@ import { Col, Row } from "antd";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { LabelBottom, TextBold, TextBoldLight, TextGrey } from "./styles";
+import { LabelBottom, TextBold, TextBoldLight, TextGrey } from "../src/components/styles";
 import GrabMono from "../assets/icon/grab-monoo.svg";
 import SocialIcon from "../assets/icon/socialicon.png";
 import PlayStore from "../assets/icon/logo-playstore.svg";
 import AppStore from "../assets/icon/logo-appstore.svg";
-import Header from "./components/header/Header";
-import HeaderContainer from "./components/headerContainer/HeaderContainer";
-import Tabs from "./components/Tabs/Tabs";
-import { menuData } from "./mocks/menu";
-import LinksUnderline from "./components/links/LinkUnderline";
+import Header from "../src/components/header/Header";
+import HeaderContainer from "../src/components/headerContainer/HeaderContainer";
+import Tabs from "../src/components/Tabs/Tabs";
+import { menuData } from "../src/mocks/menu";
+import LinksUnderline from "../src/components/links/LinkUnderline";
 import InstagramFilled from "@ant-design/icons/InstagramFilled";
 
 const Home: NextPage = () => {
