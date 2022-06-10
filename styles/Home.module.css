@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 90px;
 }
 
 .main {
@@ -13,12 +13,21 @@
 }
 
 .footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+ 
+  border-top: 2px solid #dadfe8;
+}
+.footerContainer {
+  background: #eaeff2;
+  padding: 44px 90px;
+}
+.footerBottom {
+  background: #eaeff2;
+  padding: 44px 90px;
+}
+.link a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .footer a {
