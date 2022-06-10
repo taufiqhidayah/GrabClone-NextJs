@@ -123,8 +123,8 @@ const Home: NextPage = () => {
               <TextBoldLight>Terms of Service•Privacy Policy</TextBoldLight>
             </Col>
             <Col span={12} style={{ textAlign: "right" }}>
-              <Image style={{ paddingRight: 20 }} alt="mono" src={AppStore} />
-              <Image style={{ paddingLeft: 20 }} alt="mono" src={PlayStore} />
+              <Image style={{ paddingRight: 30 }} alt="mono" src={AppStore} />
+              <Image style={{ paddingLeft: 30 }} alt="mono" src={PlayStore} />
             </Col>
           </Row>
           <div style={{ display: "flex", flexDirection: "column" }}>
